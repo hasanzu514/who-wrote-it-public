@@ -1,0 +1,17 @@
+.social input {
+  display: none;
+}
+
+.social label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 4px 11px;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.social input:checked + label {
+  background-color: #bbb;
+  color: white;
+}

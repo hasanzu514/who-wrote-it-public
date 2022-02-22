@@ -1,0 +1,37 @@
+.button {
+  font: 1em;
+  cursor: pointer;
+  color: black;
+  font-size: medium;
+  font-weight: 600;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(32, 51, 158);
+  transition: all 500ms;
+  margin: 5px;
+  animation: example-appear 750ms ease-out forwards;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    background-color: rgba(32, 51, 158, 0.493);
+    transition: all 500ms;
+  }
+}
+
+
+
+
+
+@keyframes example-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+

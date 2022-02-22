@@ -1,0 +1,33 @@
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin: 3px;
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  padding: 5px 12px 8px 12px;
+  border-radius: 15px;
+  border: 0;
+  background-color: rgb(32, 51, 158);
+  animation: button-appear 750ms ease-out forwards;
+  transition: all 500ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.btn:hover {
+  background-color: rgba(32, 51, 158, 0.493);
+  transition: all 500ms;
+}
+}
+
+@keyframes button-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

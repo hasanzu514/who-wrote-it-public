@@ -1,0 +1,98 @@
+.joingame label {
+  display: block;
+  margin: auto;
+}
+
+.joingame input {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 3px solid rgb(32, 51, 158);
+  background-color: white;
+  animation: button-appear 750ms ease-out forwards;
+  transition: all 500ms;
+  text-align: center;
+}
+
+.joingame input:focus {
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 3px solid rgb(32, 51, 158);
+  background-color: rgb(32, 51, 158);
+  animation: button-appear 750ms ease-out forwards;
+  transition: all 500ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.btn:hover {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 3px solid rgb(32, 51, 158);
+  background-color: rgba(32, 51, 158, 0.493);
+  animation: button-appear 750ms ease-out forwards;
+  transition: all 500ms;
+}
+}
+.username {
+  margin: auto;
+  margin-bottom:10px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+  padding: 3px 7px;
+  border-radius: 15px;
+  border: 3px solid rgb(32, 51, 158);
+  background-color: white;
+  animation: button-appear 750ms ease-out forwards;
+  transition: all 500ms;
+  text-align: center;
+}
+
+.modal {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  right: 0%;
+  bottom: 40%;
+  text-align: center;
+  animation: meals-appear 500ms ease-out forwards;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.modal_text {
+  color: white;
+}

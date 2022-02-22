@@ -1,0 +1,31 @@
+.score {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(32, 51, 158);
+}
+.score_correct {
+    padding: 2px 10px;
+    border-right: 3px solid rgb(32, 51, 158);
+    /* border-bottom: 3px solid rgb(32, 51, 158); */
+}
+
+.score_incorrect {
+    padding: 2px 10px;
+    /* border-bottom: 3px solid rgb(32, 51, 158); */
+}
+
+.score_number {
+    font-weight: 600;
+    animation: number-appear 500ms ease-out forwards;
+}
+
+@keyframes number-appear {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

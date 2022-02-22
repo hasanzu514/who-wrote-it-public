@@ -1,0 +1,68 @@
+.btn {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 3px solid rgb(32, 51, 158);
+  background-color: white;
+  animation: button-appear 750ms ease-out forwards;
+  transition: all 500ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.btn:hover {
+  background-color: rgba(32, 51, 158, 0.493);
+  transition: all 500ms;
+}
+}
+
+.arrow {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin: 0px 5px;
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  padding: 4px 10px 5px 10px;
+  border-radius: 9px;
+  border: 0;
+  background-color: rgb(32, 51, 158);
+  animation: button-appear 750ms ease-out forwards;
+  transition: all 500ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.arrow:hover {
+  background-color: rgba(32, 51, 158, 0.493);
+  transition: all 500ms;
+}
+}
+.arrow_up {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.arrow_down {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.btn_copy {
+  background-color: rgb(45, 219, 54);
+}

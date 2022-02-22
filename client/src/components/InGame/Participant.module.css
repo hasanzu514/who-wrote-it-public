@@ -1,0 +1,84 @@
+.participant {
+  display: block;
+  color: black;
+  cursor: pointer;
+  margin: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid rgb(32, 51, 158);
+  animation: meals-appear 500ms ease-out forwards;
+  transition: linear all 300ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.participant:hover {
+  background-color: rgb(201, 201, 201);
+  transition: linear all 300ms;
+}
+}
+
+.participant_correct {
+  display: block;
+  color: black;
+  cursor: pointer;
+  margin: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: rgb(45, 219, 54);
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid rgb(32, 51, 158);
+  animation: meals-appear 500ms ease-out forwards;
+  transition: linear all 300ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.participant_correct:hover {
+  background-color: rgba(45, 219, 54, 0.575);
+  transition: linear all 300ms;
+}
+}
+
+.participant_incorrect {
+  display: block;
+  cursor: pointer;
+  color: black;
+  margin: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: rgb(255, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid rgb(32, 51, 158);
+  animation: meals-appear 500ms ease-out forwards;
+  transition: linear all 300ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.participant_incorrect:hover {
+  background-color: rgba(255, 0, 0, 0.575);
+  transition: linear all 300ms;
+}
+}
+
+.participant_guess {
+  border: 4px solid rgb(0, 0, 0);
+}
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,67 @@
+.guess_who {
+  font-weight: 600;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+
+.loading {
+  padding-top: 15px;
+  width: 10%;
+  margin: auto;
+}
+
+.modal {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  right: 0%;
+  bottom: 40%;
+  text-align: center;
+  animation: meals-appear 500ms ease-out forwards;
+}
+
+.modal_correct {
+  font-size: x-large;
+  font-weight: 600;
+  color: rgb(45, 219, 54);
+}
+
+.modal_incorrect {
+  font-size: x-large;
+  font-weight: 600;
+  color: rgb(255, 0, 0);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  margin: 3px;
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(32, 51, 158);
+  animation: meals-appear 750ms ease-out forwards;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

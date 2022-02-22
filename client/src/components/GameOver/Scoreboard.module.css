@@ -1,0 +1,60 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  padding: 5px;
+}
+
+td {
+  /* width: 25%; */
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.stats_question {
+  text-align: center;
+  font-weight: 600;
+  width: 10%;
+}
+.stats_correct {
+  text-align: center;
+  font-weight: 600;
+  width: 35%;
+}
+.stats_time {
+  text-align: center;
+  font-weight: 600;
+  width: 55%;
+}
+
+.name {
+  text-align: center;
+  font-weight: 600;
+  width: 45%;
+}
+
+.scorebar {
+  height: 5px;
+  width: 45%;
+  border-radius: 2rem;
+  transition: all 0.5s;
+  will-change: transform;
+  /* box-shadow: 0 0 3px rgb(32, 51, 158); */
+}
+
+.scorebar > div {
+  display: inline-block;
+  height: 100%;
+  width: 85%;
+  background-color: rgba(32, 51, 158, 1);
+  border-radius: inherit;
+  color: white;
+  font-weight: 500;
+  padding-left: 7px;
+  text-align: center;
+}
+
+.score {
+  width: 10%;
+  text-align: center;
+  padding-bottom: 5px;
+}

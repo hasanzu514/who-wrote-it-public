@@ -1,0 +1,13 @@
+.input {
+    margin: 5px 0px;
+}
+
+.input input {
+    border-radius: 10px;
+    border: 3px solid rgb(32, 51, 158);
+    padding: 5px;
+}
+
+.input label {
+    font-weight: 900;
+}

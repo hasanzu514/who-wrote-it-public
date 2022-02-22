@@ -1,0 +1,19 @@
+.card {
+  text-align: center;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 90%;
+    margin-top: 25px;
+    padding: 10px;
+  }
+}
